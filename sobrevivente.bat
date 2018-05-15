@@ -1,1 +1,1 @@
-Love\love.exe main.lua
+bin\lib\Love\love.exe .
