@@ -1,6 +1,6 @@
-local Inicio = Base
+local Inicio = {}
 
-local desenhaSelect = true
+Inicio.desenhaSelect = true
 
 function DesenhaBackGround()
     for indice, valor in ipairs(Inicio.ImagemBackground) do
@@ -18,11 +18,11 @@ function DesenhaLogo()
     love.graphics.draw(Inicio.logo, 140, 30)
 end
 function DesenhaSelect()
-    if desenhaSelect then
+    if Inicio.desenhaSelect then
         love.graphics.print("->", Constantes.LARGURA_TELA / 2 - 180, Constantes.ALTURA_TELA / 2  + 120, 0, 2);
-        desenhaSelect = false
+        Inicio.desenhaSelect = false
     else
-        desenhaSelect = true
+        Inicio.desenhaSelect = true
     end
 end
 
@@ -38,18 +38,18 @@ end
 
 function Inicio:Inicializa()
     Inicio.ImagemBackground = {
-        Inicio.Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-01.png",
-        Inicio.Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-02.png",
-        Inicio.Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-03.png",
-        Inicio.Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-04.png",
-        Inicio.Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-05.png",
+        Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-01.png",
+        Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-02.png",
+        Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-03.png",
+        Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-04.png",
+        Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-05.png",
     }
     
-    Inicio.SomBackground = Inicio.Constantes.PASTA_SONS_BACKGROUND .. "00.wav"
+    Inicio.SomBackground = Constantes.PASTA_SONS_BACKGROUND .. "00.wav"
         
     
-    Inicio.Logo_src = Inicio.Constantes.PASTA_BASE .. "fases/00/Logo/logo.png"
-    Inicio.Titulo = Inicio.Constantes.TITULO .. " - Tela inicial"    
+    Inicio.Logo_src = Constantes.PASTA_BASE .. "fases/00/Logo/logo.png"
+    Inicio.Titulo = Constantes.TITULO .. " - Tela inicial"    
     Inicio.logo = love.graphics.newImage(Inicio.Logo_src)   
 
     

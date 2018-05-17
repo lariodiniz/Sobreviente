@@ -3,9 +3,27 @@ local Jogo = {
     FaseAtual = 0
 }
 
-local InicializaFase = true;
+function Fase01()
+    return require("bin.game.fases.01.fase01")
+end
+
+function Fase01()
+    return require("bin.game.fases.01.fase01")
+end
+
+function TelaInicial()
+    return require("bin.game.fases.00.inicio")
+end
+
+table.insert(Jogo.Fases, TelaInicial)
+table.insert(Jogo.Fases, Fase01)
+    
+
 -- Função que Inicializa o Jogo
 function Jogo:Inicializa()
+    -- Adicina a fase no nogo
+    
+
     math.randomseed(os.time())
     love.window.setMode(Constantes.LARGURA_TELA,
                         Constantes.ALTURA_TELA, 
@@ -15,9 +33,10 @@ end
 
 -- Função que Realiza o Update a tela em cada interação
 function Jogo:Update()
-    if InicializaFase then
+    if Jogo.InicializaFase then
+        love.graphics.print("ola", 250, 250,0,0,10)
         Jogo.Fase.Inicializa() 
-        InicializaFase = false;
+        Jogo.InicializaFase = false;
     end
     Jogo.Fase.Update()    
     love.window.setTitle(Jogo.Fase.Titulo)    
@@ -25,7 +44,8 @@ end
 
 function ProximaFase()
     Jogo.FaseAtual = Jogo.FaseAtual + 1
-    Jogo.Fase = Jogo.Fases[Jogo.FaseAtual]       
+    Jogo.Fase = Jogo.Fases[Jogo.FaseAtual]()  
+    Jogo.InicializaFase = true     
 end
 
 -- Função que desenha a tela em cada interação

@@ -1,4 +1,4 @@
-local Fase01 = Base
+local Fase01 = {}
 
 
 function DesenhaBackGround()
@@ -29,19 +29,18 @@ end
 
 function Fase01:Inicializa()
     Fase01.ImagemBackground = {
-        Fase01.Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-01.png",
-        Fase01.Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-02.png",
-        Fase01.Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-03.png",
-        Fase01.Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-04.png",
-        Fase01.Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-05.png",
+        Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-01.png",
+        Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-02.png",
+        Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-03.png",
+        Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-04.png",
+        Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-05.png",
     }
     
     Fase01.SomBackground = {
-        Fase01.Constantes.PASTA_SONS .. "01/00.wav",
-        Fase01.Constantes.PASTA_SONS .. "01/01.wav" }        
+        Constantes.PASTA_SONS .. "01/00.wav",
+        Constantes.PASTA_SONS .. "01/01.wav" }  
     
-    
-        Fase01.Titulo = Fase01.Constantes.TITULO .. " - Fase 01"    
+    Fase01.Titulo = Constantes.TITULO .. " - Fase 01"    
     TrilhaSonora() 
 end
 
