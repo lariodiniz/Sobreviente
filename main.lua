@@ -3,12 +3,23 @@ Constantes = {
     ALTURA_TELA = 600,
     LARGURA_TELA = 800,
     MAXIMIZAVEL = false, 
+
+    -- Pastas Bases
     PASTA_IMAGENS = "bin/game/imagens/", 
     PASTA_SONS = "bin/game/sons/",     
+
+    --Pastas de Imagens    
     PASTA_IMAGEM_BACKGROUND = "bin/game/imagens/background/",
+    PASTA_IMAGEM_TERRENOS = "bin/game/imagens/terrenos/",
+    PASTA_IMAGEM_JOGADOR = "bin/game/imagens/jogador/",
+
+    -- Pastas de Som
     PASTA_SONS_BACKGROUND = "bin/game/sons/background/",
+
+    --Titulo
     TITULO = "Sobrevivente",       
 
+    --Ações Globais
     ACAO = {
         PROXIMA_TELA = 'PROXIMA_TELA'
     }
@@ -22,7 +33,7 @@ function love.keypressed(key)
         love.event.quit()
     end
     if key == 'space' then        
-        jogo.Teclas_Space()
+        jogo.Teclas_Space('key')
     end
 end
 

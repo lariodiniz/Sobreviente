@@ -1,18 +1,20 @@
+Terreno = require("bin.game.base.terreno")
+
 local Jogo = {
     Fases = { },
-    FaseAtual = 0
+    FaseAtual = 0,
+    Personagem = require("bin.game.base.jogador")
 }
 
-function Fase01()
-    return require("bin.game.fases.01.fase01")
+local function Fase01()
+    local fase = require("bin.game.fases.01.fase01")
+    return fase
+          
 end
 
-function Fase01()
-    return require("bin.game.fases.01.fase01")
-end
-
-function TelaInicial()
-    return require("bin.game.fases.00.inicio")
+local function TelaInicial()
+    local fase = require("bin.game.fases.00.inicio")
+    return fase
 end
 
 table.insert(Jogo.Fases, TelaInicial)
@@ -54,8 +56,8 @@ function Jogo:Desenha()
 end
 
 
-function Jogo:Teclas_Space()              
-    acao = Jogo.Fase.Teclas_Space()
+function Jogo:Teclas_Space()                  
+    local acao = Jogo.Fase.Teclas_Space(tecla)
     if acao == Constantes.ACAO.PROXIMA_TELA then
         ProximaFase()
     end
