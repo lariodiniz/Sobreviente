@@ -1,5 +1,6 @@
 Constantes = {
     PASTA_BASE = "bin/game/", 
+    GRAVIDADE = 1, 
     ALTURA_TELA = 600,
     LARGURA_TELA = 800,
     MAXIMIZAVEL = false,     
@@ -30,8 +31,6 @@ Constantes = {
 
 
 jogo = require("bin.game.jogo")
-
-
 
 criarBloco01 = require("bin.game.base.terreno.bloco01")
 criarBloco02 = require("bin.game.base.terreno.bloco01")

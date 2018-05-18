@@ -48,7 +48,6 @@ local function CriaFase00()
 
     -- Função que desenha a tela em cada interação
     function Inicio:Desenha()         
-        DesenhaBackGround()
         DesenhaLogo()
         DesenhaOpcoes()       
         DesenhaSelect()

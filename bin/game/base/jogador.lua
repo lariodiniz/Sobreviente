@@ -6,26 +6,24 @@ local function defineImagem(self)
     self.imagem = self.imagens[self.Constantes.Acoes.PARADO][self.sprit]
 end
 
-local function CriaJogador(_posicaoX, _posicaoY,_altura,_largura)    
+local function CriaJogador(_posicaoX, _posicaoY)    
     local t = {        
         sprit = 1,
         Constantes = {
             Tipo = Constantes.TIPOS.Jogador,
+            Peso = 10,
             Acoes = {
                 PARADO = 1
             }
         },
-        posicao = {
-            x = _posicaoX,
-            y = _posicaoY
+        Posicao = {
+            eixo_x = _posicaoX,
+            eixo_y = _posicaoY            
         },
         dimensao = {
-            altura = _altura,
-            largura = _largura
-        },              
-
-        Desenha = require("bin.game.base.objeto.desenha")
-
+            altura = 0,
+            largura = 0
+        }
     }    
     t.imagens = {
         {
@@ -38,8 +36,9 @@ local function CriaJogador(_posicaoX, _posicaoY,_altura,_largura)
         }
 }
     t.DefineImagem = defineImagem
+    t.Desenha = require("bin.game.base.objeto.desenha")
 
     return t
 end   
 
-return CriaJogador()
+return CriaJogador

@@ -2,21 +2,18 @@
 local function CriaFase01()
 
     local Fase01 = {}
-
-    local function DesenhaTerreno()
-        Fase01.Terreno:Desenha()  
-    end
-
    
     function Fase01:Update()
-        
+             
     end
 
     function Fase01:Inicializa()
-
-        AdicionaObjeto(jogo.Personagem)
-        AdicionaObjeto(criarBloco01(0,Constantes.ALTURA_TELA-50))
-        AdicionaObjeto(criarBloco02(50,Constantes.ALTURA_TELA-50))
+        local pers = require("bin.game.base.jogador")
+        jog = pers(10, 10)
+        DefinePersonagem(jog)
+        AdicionaObjeto(jog)
+        AdicionaObjeto(criarBloco01("0",Constantes.ALTURA_TELA-50))
+        AdicionaObjeto(criarBloco02("50",Constantes.ALTURA_TELA-50))
   
         LimpaMusicas()         
         AdicionaMusica("01/00.wav")    
@@ -28,8 +25,8 @@ local function CriaFase01()
     
     -- Função que desenha a tela em cada interação
     function Fase01:Desenha()         
-        DesenhaBackGround()      
-        DesenhaObjetos()          
+        
+                 
     end
 
     function Fase01:Teclas_Space(tecla)

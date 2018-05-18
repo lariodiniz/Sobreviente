@@ -8,15 +8,15 @@ local Jogo = {
     Fases = { },
     FaseAtual = 0,
     objetos = {},
-    Personagem = require("bin.game.base.jogador"),
+    Personagem = {},   
 
     musicasCarregadas = false,
     musicaAmbiente = {},
     somBackground = {},
     
-    backGroundImagens = {},    
+    backGroundImagens = {},   
+    Gravidade = require("bin.game.base.objeto.gravidade") 
 }
-
 
 local function Fase01()
     local fase = require("bin.game.fases.01.fase01")
@@ -45,12 +45,13 @@ end
 function Jogo:Update()       
     if Jogo.InicializaFase then             
         Jogo.Fase.Inicializa() 
-        TrilhaSonora()   
-        
+        TrilhaSonora()           
         Jogo.InicializaFase = false;
+        love.window.setTitle(Jogo.Fase.Titulo)
     end
-    Jogo.Fase.Update()    
-    love.window.setTitle(Jogo.Fase.Titulo)
+    
+    Jogo.Fase.Update()  
+    AplicaGravidade()    
 end
 
 
@@ -65,11 +66,14 @@ function ProximaFase()
 end
 
 -- Função que desenha a tela em cada interação
-function Jogo:Desenha()    
-    Jogo.Fase.Desenha()
+function Jogo:Desenha()
+    DesenhaBackGround()    
+    Jogo.Fase.Desenha()    
+    DesenhaObjetos() 
 end
 
 
+-- FUNÇÕES DE TECLAS
 function Jogo:Teclas_Space()                  
     local acao = Jogo.Fase.Teclas_Space(tecla)
     if acao == Constantes.ACAO.PROXIMA_TELA then
@@ -77,10 +81,20 @@ function Jogo:Teclas_Space()
     end
 end
 
+function DefinePersonagem(obj)
+    Jogo.Personagem = obj
+end
+
 -- FUNÇÕES OBJETO
 function DesenhaObjetos()
     for indice, valor in ipairs(Jogo.objetos) do
         valor:Desenha()
+    end    
+end
+
+function AplicaGravidade()
+    for indice, valor in ipairs(Jogo.objetos) do
+        Jogo.Gravidade(valor)
     end    
 end
 
