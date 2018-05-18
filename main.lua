@@ -2,8 +2,11 @@ Constantes = {
     PASTA_BASE = "bin/game/", 
     ALTURA_TELA = 600,
     LARGURA_TELA = 800,
-    MAXIMIZAVEL = false, 
-
+    MAXIMIZAVEL = false,     
+    TIPOS = {
+        Jogador = "JOGADOR",
+        Terreno = "TERRENO"
+    },
     -- Pastas Bases
     PASTA_IMAGENS = "bin/game/imagens/", 
     PASTA_SONS = "bin/game/sons/",     
@@ -28,6 +31,11 @@ Constantes = {
 
 jogo = require("bin.game.jogo")
 
+
+
+criarBloco01 = require("bin.game.base.terreno.bloco01")
+criarBloco02 = require("bin.game.base.terreno.bloco01")
+
 function love.keypressed(key)
     if key == 'escape' then
         love.event.quit()
@@ -39,6 +47,20 @@ end
 
 -- Load some default values for our rectangle.
 function love.load()
+    Constantes.IMAGENS_TERRENO_FASE = {
+        love.graphics.newImage(Constantes.PASTA_IMAGEM_TERRENOS..'jungle tileset.png')
+    }
+
+    Constantes.IMAGENS_JOGADOR = {
+            {
+                love.graphics.newImage(Constantes.PASTA_IMAGEM_JOGADOR..'parado00.png'),
+                love.graphics.newImage(Constantes.PASTA_IMAGEM_JOGADOR..'parado01.png'),
+                love.graphics.newImage(Constantes.PASTA_IMAGEM_JOGADOR..'parado02.png'),
+                love.graphics.newImage(Constantes.PASTA_IMAGEM_JOGADOR..'parado03.png'),
+                love.graphics.newImage(Constantes.PASTA_IMAGEM_JOGADOR..'parado04.png'),
+                love.graphics.newImage(Constantes.PASTA_IMAGEM_JOGADOR..'parado05.png')
+            }
+    }    
     jogo.Inicializa()
 end
  

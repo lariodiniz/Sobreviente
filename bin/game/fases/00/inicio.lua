@@ -3,18 +3,6 @@ local function CriaFase00()
 
     Inicio.desenhaSelect = true
 
-    local function DesenhaBackGround()
-        for indice, valor in ipairs(Inicio.ImagemBackground) do
-            love.graphics.draw(love.graphics.newImage(valor))
-        end
-    end
-
-    local function TrilhaSonora()
-        Inicio.musica_ambiente = love.audio.newSource(Inicio.SomBackground, "static")
-        Inicio.musica_ambiente:setLooping(true)
-        Inicio.musica_ambiente:play()
-    end
-
     local function DesenhaLogo()
         love.graphics.draw(Inicio.logo, 140, 30)
     end
@@ -38,26 +26,28 @@ local function CriaFase00()
     end
 
     function Inicio:Inicializa()
-        Inicio.ImagemBackground = {
-            Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-01.png",
-            Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-02.png",
-            Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-03.png",
-            Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-04.png",
-            Constantes.PASTA_IMAGEM_BACKGROUND .. "bk-05.png",
+        local ImagemBackground = {
+            "bk-01.png",
+            "bk-02.png",
+            "bk-03.png",
+            "bk-04.png",
+            "bk-05.png",
         }
-        
-        Inicio.SomBackground = Constantes.PASTA_SONS_BACKGROUND .. "00.wav"        
+
+        for indice, valor in ipairs(ImagemBackground) do
+            AdicionaBackGround(valor)
+        end
+
+        AdicionaMusica("background/00.wav")               
         
         Inicio.Logo_src = Constantes.PASTA_BASE .. "fases/00/Logo/logo.png"
-        Inicio.Titulo = Constantes.TITULO .. " - Tela inicial"    
+        DefineTitulo(" - Tela inicial")
         Inicio.logo = love.graphics.newImage(Inicio.Logo_src)   
-
         
-        TrilhaSonora() 
     end
 
     -- Função que desenha a tela em cada interação
-    function Inicio:Desenha() 
+    function Inicio:Desenha()         
         DesenhaBackGround()
         DesenhaLogo()
         DesenhaOpcoes()       
@@ -66,7 +56,6 @@ local function CriaFase00()
 
 
     function Inicio:Teclas_Space()
-        Inicio.musica_ambiente:stop() 
         return Constantes.ACAO.PROXIMA_TELA        
     end
 
