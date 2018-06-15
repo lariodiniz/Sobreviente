@@ -1,2 +1,2 @@
 # Sobreviente
-Repositório do jogo sobrevivente feito em lua
+Repositório do jogo sobrevivente feito com cocos creator
