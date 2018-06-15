@@ -1,0 +1,10 @@
+{
+  "packedTextures": [
+    {
+      "path": "C:\\Alura\\Sobrevivente\\temp\\TexturePacker\\Imagens\\Fase01\\Terreno\\Atlas\\Terreno.pac/Terreno-1.png",
+      "name": "Terreno-1.png",
+      "size": "1024x512"
+    }
+  ],
+  "unpackedTextures": []
+}

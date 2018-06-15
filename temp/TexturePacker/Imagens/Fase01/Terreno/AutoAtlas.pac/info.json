@@ -1,0 +1,10 @@
+{
+  "packedTextures": [
+    {
+      "path": "C:\\Alura\\Sobrevivente\\temp\\TexturePacker\\Imagens\\Fase01\\Terreno\\AutoAtlas.pac/AutoAtlas-1.png",
+      "name": "AutoAtlas-1.png",
+      "size": "1024x512"
+    }
+  ],
+  "unpackedTextures": []
+}

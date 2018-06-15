@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>terreno00.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{19,34}</string>
+                <key>spriteSourceSize</key>
+                <string>{19,34}</string>
+                <key>textureRect</key>
+                <string>{{0,0},{19,34}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>        
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>1</integer>
+            <key>pixelFormat</key>
+            <string>RGBA8888</string>
+            <key>premultiplyAlpha</key>
+            <false/>
+            <key>realTextureFileName</key>
+            <string>Terreno.png</string>
+            <key>size</key>
+            <string>{624,304}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:d1e6402d21668d793969b3db106d15fa:5850ba5ee5a118ba2586ed98276d559c:a531cb6356d821689e2db94467b11d73$</string>
+            <key>textureFileName</key>
+            <string>Terreno.png</string>
+        </dict>
+    </dict>
+</plist>

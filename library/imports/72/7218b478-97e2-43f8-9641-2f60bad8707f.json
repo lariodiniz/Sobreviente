@@ -1,0 +1,22 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "parado00",
+    "texture": "510dc765-a7c3-4531-9581-5f50a318074d",
+    "atlas": "6a4098ce-a33b-4224-96a6-c99d340105a0",
+    "rect": [
+      0,
+      0,
+      19,
+      34
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      19,
+      34
+    ]
+  }
+}

@@ -230,12 +230,12 @@
     "relativePath": "Cenas\\Inicial.fire"
   },
   "ff5c215f-7003-4002-a497-db021b6a1c48": {
-    "asset": 1528224207068,
+    "asset": 1529087305761,
     "meta": 1528224194058,
     "relativePath": "Cenas"
   },
   "55569a3d-1027-47b2-b490-cf1ebb45afdb": {
-    "asset": 1528224288743,
+    "asset": 1529087817157,
     "meta": 1528224233249,
     "relativePath": "Imagens"
   },
@@ -290,7 +290,7 @@
     "relativePath": "Scripts"
   },
   "edebf033-196a-49ba-84a4-02965919806a": {
-    "asset": 1528224754145,
+    "asset": 1529093081289,
     "meta": 1528224754146,
     "relativePath": "Scripts\\Geral"
   },
@@ -305,12 +305,12 @@
     "relativePath": "Scripts\\Geral\\Teclado.js"
   },
   "f6200013-f98a-4980-9f32-9c899350bd5d": {
-    "asset": 1529086524807,
+    "asset": 1529087903005,
     "meta": 1529086514689,
     "relativePath": "Prefabs"
   },
   "08153b17-7b22-451b-865e-cc77642d7b12": {
-    "asset": 1529086524806,
+    "asset": 1529086552953,
     "meta": 1529086524811,
     "relativePath": "Prefabs\\Geral"
   },
@@ -325,13 +325,93 @@
     "relativePath": "Cenas\\Creditos.fire"
   },
   "611b4cf6-5018-48c7-937f-5cc4693d0850": {
-    "asset": 1529087654570,
-    "meta": 1529087654586,
+    "asset": 1529094433380,
+    "meta": 1529094433417,
     "relativePath": "Cenas\\Fase01.fire"
   },
   "a294a79b-79ae-447a-8f54-39fbae46885e": {
-    "asset": 1529087692539,
-    "meta": 1529087698621,
+    "asset": 1529087730340,
+    "meta": 1529087795192,
     "relativePath": "Scripts\\CenaInicial\\SelecionaOpcao.js"
+  },
+  "31af39cd-ec6b-4c64-b9ee-9d03dded36d8": {
+    "asset": 1529090311524,
+    "meta": 1529087814277,
+    "relativePath": "Imagens\\Fase01"
+  },
+  "ed2d3f35-e6b4-4f45-a2fe-3cba5284a39b": {
+    "asset": 1529088364209,
+    "meta": 1529087899996,
+    "relativePath": "Prefabs\\Terreno"
+  },
+  "8efc68ee-5b13-42c8-9d5c-59b077afba38": {
+    "asset": 1529089348692,
+    "meta": 1529088375518,
+    "relativePath": "Atlas"
+  },
+  "1fe20473-c63b-4ff3-8c20-d3d0aec6a59b": {
+    "asset": 1529088580633,
+    "meta": 1529088583815,
+    "relativePath": "Scripts\\Geral\\Jogador.js"
+  },
+  "72592708-27cd-410a-be99-eeec3eca0217": {
+    "asset": 1529089073564,
+    "meta": 1529089062886,
+    "relativePath": "Animacoes"
+  },
+  "de702b4f-f807-48eb-b495-cbb82f124535": {
+    "asset": 1529089081009,
+    "meta": 1529089069497,
+    "relativePath": "Animacoes\\Geral"
+  },
+  "de0b1ee4-eff8-4a84-a604-b2871c8bd42e": {
+    "asset": 1529089096453,
+    "meta": 1529089079096,
+    "relativePath": "Animacoes\\Geral\\Jogador"
+  },
+  "9bbeb211-018d-496b-9688-cd86b7665806": {
+    "asset": 1529089607634,
+    "meta": 1529089607658,
+    "relativePath": "Animacoes\\Geral\\Jogador\\Parado.anim"
+  },
+  "6a4098ce-a33b-4224-96a6-c99d340105a0": {
+    "asset": 1529089348673,
+    "meta": 1529089348798,
+    "relativePath": "Atlas\\teste.plist"
+  },
+  "510dc765-a7c3-4531-9581-5f50a318074d": {
+    "asset": 1529089348671,
+    "meta": 1529089348723,
+    "relativePath": "Atlas\\teste.png"
+  },
+  "bafad105-08a9-4a24-b7ff-774bf556f2c2": {
+    "asset": 1529090709033,
+    "meta": 1529090308242,
+    "relativePath": "Imagens\\Fase01\\Terreno"
+  },
+  "783f806d-fec2-47db-b143-a69e358960de": {
+    "asset": 1529092569577,
+    "meta": 1529090616322,
+    "relativePath": "Imagens\\Fase01\\Terreno\\Atlas"
+  },
+  "e8d5dc0a-9296-4a28-97b8-59c4f217b238": {
+    "asset": 1529092151451,
+    "meta": 1529093439880,
+    "relativePath": "Imagens\\Fase01\\Terreno\\Atlas\\Terreno.plist"
+  },
+  "244917ab-87cc-4bc1-8250-aeaf7d3adb0c": {
+    "asset": 1529093797327,
+    "meta": 1529094019808,
+    "relativePath": "Scripts\\Geral\\Movimentacao.js"
+  },
+  "f8cfc069-7189-49af-bd68-f276abb30f22": {
+    "asset": 1529094351317,
+    "meta": 1529094353559,
+    "relativePath": "Scripts\\Geral\\Gravidade.js"
+  },
+  "5ef8d46b-ac18-4e87-aaf8-053b22bb6207": {
+    "asset": 1529094382698,
+    "meta": 1529094385162,
+    "relativePath": "Scripts\\Geral\\SofreGravidade.js"
   }
 }

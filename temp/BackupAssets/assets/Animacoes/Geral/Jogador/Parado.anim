@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "Parado",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.24,
+  "sample": 25,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "7218b478-97e2-43f8-9641-2f60bad8707f"
+            }
+          },
+          {
+            "frame": 0.04,
+            "value": {
+              "__uuid__": "8ba60357-bc74-45d5-911f-189a16008963"
+            }
+          },
+          {
+            "frame": 0.08,
+            "value": {
+              "__uuid__": "e753a698-ddc3-4469-8ea9-f94ac8f13aff"
+            }
+          },
+          {
+            "frame": 0.12,
+            "value": {
+              "__uuid__": "825b0235-d0e0-4020-8631-7a43a3ba3e1f"
+            }
+          },
+          {
+            "frame": 0.16,
+            "value": {
+              "__uuid__": "4f202b64-a4a1-455d-b179-fbd64a5b8d7d"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "aac13252-9621-4b3f-9f91-cc247d1dbbec"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

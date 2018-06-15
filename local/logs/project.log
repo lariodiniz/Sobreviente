@@ -1,54 +1,66 @@
-2018-06-15T17:49:22.914Z - normal: Load ~/.CocosCreator/settings.json
-2018-06-15T17:49:22.921Z - normal: checking language setting...
-2018-06-15T17:49:22.921Z - normal: Language: en
-2018-06-15T17:49:24.826Z - success: protocol editor-framework registered
-2018-06-15T17:49:24.826Z - success: protocol app registered
-2018-06-15T17:49:24.826Z - success: protocol theme registered
-2018-06-15T17:49:24.826Z - success: protocol packages registered
-2018-06-15T17:49:24.826Z - success: protocol unpack registerred
-2018-06-15T17:49:24.826Z - success: protocol disable-commonjs registerred
-2018-06-15T17:49:26.830Z - normal: connected!
-2018-06-15T17:49:26.832Z - normal: Check project C:\Alura\Sobrevivente
-2018-06-15T17:49:26.835Z - normal: Initializing Cocos2d
-2018-06-15T17:49:27.217Z - normal: Initializing Asset Database
-2018-06-15T17:49:27.275Z - success: protocol uuid registerred
-2018-06-15T17:49:27.275Z - success: protocol db registerred
-2018-06-15T17:49:27.275Z - success: protocol thumbnail registerred
-2018-06-15T17:49:27.275Z - normal: Loading editor/builtin packages
-2018-06-15T17:49:27.299Z - success: anysdk loaded
-2018-06-15T17:49:27.412Z - success: assets loaded
-2018-06-15T17:49:27.412Z - success: builder loaded
-2018-06-15T17:49:27.428Z - success: cocos-analytics loaded
-2018-06-15T17:49:27.430Z - success: console loaded
-2018-06-15T17:49:27.461Z - success: fb-instant-games loaded
-2018-06-15T17:49:27.461Z - success: hierarchy loaded
-2018-06-15T17:49:27.461Z - success: inspector loaded
-2018-06-15T17:49:27.461Z - success: keystore loaded
-2018-06-15T17:49:27.477Z - success: node-library loaded
-2018-06-15T17:49:27.477Z - success: package-asset loaded
-2018-06-15T17:49:27.477Z - success: preferences loaded
-2018-06-15T17:49:27.477Z - success: project-exporter loaded
-2018-06-15T17:49:27.493Z - success: project-importer loaded
-2018-06-15T17:49:27.493Z - success: project-settings loaded
-2018-06-15T17:49:27.493Z - success: ui-kit loaded
-2018-06-15T17:49:27.493Z - success: ui-grid loaded
-2018-06-15T17:49:27.493Z - success: scene loaded
-2018-06-15T17:49:27.493Z - success: sprite-editor loaded
-2018-06-15T17:49:27.508Z - success: store loaded
-2018-06-15T17:49:27.508Z - success: timeline loaded
-2018-06-15T17:49:27.508Z - normal: Loading builtin packages
-2018-06-15T17:49:27.508Z - success: asset-db-debugger loaded
-2018-06-15T17:49:27.508Z - success: code-editor loaded
-2018-06-15T17:49:27.508Z - success: color-picker loaded
-2018-06-15T17:49:27.508Z - success: package-manager loaded
-2018-06-15T17:49:27.524Z - success: sdkbox loaded
-2018-06-15T17:49:27.524Z - success: tester loaded
-2018-06-15T17:49:27.524Z - success: ui-kit-preview-extra loaded
-2018-06-15T17:49:27.524Z - success: ui-kit-preview loaded
-2018-06-15T17:49:27.524Z - success: ui-tree loaded
-2018-06-15T17:49:28.659Z - normal: Initializing project C:\Alura\Sobrevivente
-2018-06-15T17:49:28.671Z - normal: Loading packages
-2018-06-15T17:49:28.676Z - normal: Watching packages
-2018-06-15T17:49:28.687Z - normal: Run Application
-2018-06-15T17:49:30.049Z - success: preview server running at http://localhost:7456
-2018-06-15T17:49:34.827Z - normal: 1.9.1
+2018-06-15T20:10:32.749Z - normal: Load ~/.CocosCreator/settings.json
+2018-06-15T20:10:32.755Z - normal: checking language setting...
+2018-06-15T20:10:32.755Z - normal: Language: en
+2018-06-15T20:10:34.626Z - success: protocol editor-framework registered
+2018-06-15T20:10:34.626Z - success: protocol app registered
+2018-06-15T20:10:34.626Z - success: protocol theme registered
+2018-06-15T20:10:34.626Z - success: protocol packages registered
+2018-06-15T20:10:34.626Z - success: protocol unpack registerred
+2018-06-15T20:10:34.626Z - success: protocol disable-commonjs registerred
+2018-06-15T20:10:37.040Z - normal: connected!
+2018-06-15T20:10:37.043Z - normal: Check project C:\Alura\Sobrevivente
+2018-06-15T20:10:37.049Z - normal: Initializing Cocos2d
+2018-06-15T20:10:38.185Z - normal: Initializing Asset Database
+2018-06-15T20:10:38.219Z - success: protocol uuid registerred
+2018-06-15T20:10:38.225Z - success: protocol db registerred
+2018-06-15T20:10:38.225Z - success: protocol thumbnail registerred
+2018-06-15T20:10:38.225Z - normal: Loading editor/builtin packages
+2018-06-15T20:10:38.246Z - success: anysdk loaded
+2018-06-15T20:10:38.385Z - success: assets loaded
+2018-06-15T20:10:38.389Z - success: builder loaded
+2018-06-15T20:10:38.389Z - success: cocos-analytics loaded
+2018-06-15T20:10:38.389Z - success: console loaded
+2018-06-15T20:10:38.428Z - success: fb-instant-games loaded
+2018-06-15T20:10:38.435Z - success: hierarchy loaded
+2018-06-15T20:10:38.435Z - success: inspector loaded
+2018-06-15T20:10:38.435Z - success: keystore loaded
+2018-06-15T20:10:38.435Z - success: node-library loaded
+2018-06-15T20:10:38.435Z - success: package-asset loaded
+2018-06-15T20:10:38.446Z - success: preferences loaded
+2018-06-15T20:10:38.446Z - success: project-exporter loaded
+2018-06-15T20:10:38.465Z - success: project-importer loaded
+2018-06-15T20:10:38.465Z - success: project-settings loaded
+2018-06-15T20:10:38.465Z - success: ui-kit loaded
+2018-06-15T20:10:38.465Z - success: ui-grid loaded
+2018-06-15T20:10:38.465Z - success: scene loaded
+2018-06-15T20:10:38.465Z - success: sprite-editor loaded
+2018-06-15T20:10:38.475Z - success: store loaded
+2018-06-15T20:10:38.475Z - success: timeline loaded
+2018-06-15T20:10:38.475Z - normal: Loading builtin packages
+2018-06-15T20:10:38.475Z - success: asset-db-debugger loaded
+2018-06-15T20:10:38.475Z - success: code-editor loaded
+2018-06-15T20:10:38.475Z - success: color-picker loaded
+2018-06-15T20:10:38.486Z - success: package-manager loaded
+2018-06-15T20:10:38.486Z - success: sdkbox loaded
+2018-06-15T20:10:38.486Z - success: tester loaded
+2018-06-15T20:10:38.495Z - success: ui-kit-preview-extra loaded
+2018-06-15T20:10:38.495Z - success: ui-kit-preview loaded
+2018-06-15T20:10:38.495Z - success: ui-tree loaded
+2018-06-15T20:10:39.605Z - normal: Initializing project C:\Alura\Sobrevivente
+2018-06-15T20:10:39.609Z - normal: Loading packages
+2018-06-15T20:10:39.615Z - normal: Watching packages
+2018-06-15T20:10:39.625Z - normal: Run Application
+2018-06-15T20:10:39.862Z - failed: [db-task][init] Failed to import asset C:\Alura\Sobrevivente\assets\Imagens\Fase01\Terreno\Atlas\Terreno.plist, message: TypeError: Cannot read property 'slice' of undefined
+    at _parseSize (C:\CocosCreator\resources\app.asar\editor\share\assets\meta\texture-packer.js:1:202)
+    at TexturePackerMeta.parse (C:\CocosCreator\resources\app.asar\editor\share\assets\meta\texture-packer.js:1:1822)
+    at TexturePackerMeta.import (C:\CocosCreator\resources\app.asar\editor\share\assets\meta\sprite-atlas.js:1:1197)
+    at Async.series.s (C:\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:4979)
+    at C:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:718:13
+    at iterate (C:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:262:13)
+    at async.forEachOfSeries.async.eachOfSeries (C:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:281:9)
+    at _parallel (C:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:717:9)
+    at Object.async.series (C:\CocosCreator\resources\app.asar\node_modules\async\lib\async.js:739:9)
+    at _importAsset (C:\CocosCreator\resources\app.asar\asset-db\lib\tasks.js:1:4913)
+2018-06-15T20:10:40.165Z - success: preview server running at http://localhost:7456
+2018-06-15T20:10:49.443Z - normal: 1.9.1
+2018-06-15T20:27:15.564Z - info: shutdown preview server
