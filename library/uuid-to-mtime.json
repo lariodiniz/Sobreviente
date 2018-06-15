@@ -225,8 +225,8 @@
     "relativePath": "prefab\\webview.prefab"
   },
   "d061ac12-556d-4603-b96b-c3ebf1874da4": {
-    "asset": 1528224849147,
-    "meta": 1528224849166,
+    "asset": 1529087632410,
+    "meta": 1529087632433,
     "relativePath": "Cenas\\Inicial.fire"
   },
   "ff5c215f-7003-4002-a497-db021b6a1c48": {
@@ -299,9 +299,39 @@
     "meta": 1528224763520,
     "relativePath": "Scripts\\CenaInicial"
   },
+  "872179d9-c055-4074-be45-f6bbd924ae33": {
+    "asset": 1529086472919,
+    "meta": 1529086480217,
+    "relativePath": "Scripts\\Geral\\Teclado.js"
+  },
+  "f6200013-f98a-4980-9f32-9c899350bd5d": {
+    "asset": 1529086524807,
+    "meta": 1529086514689,
+    "relativePath": "Prefabs"
+  },
+  "08153b17-7b22-451b-865e-cc77642d7b12": {
+    "asset": 1529086524806,
+    "meta": 1529086524811,
+    "relativePath": "Prefabs\\Geral"
+  },
+  "f3b9620a-6737-4112-8d87-a63b44c447f4": {
+    "asset": 1529086552945,
+    "meta": 1529086552957,
+    "relativePath": "Prefabs\\Geral\\Teclado.prefab"
+  },
+  "6dbd8bec-0e90-4b5d-ad8a-3705a9101a29": {
+    "asset": 1529087644419,
+    "meta": 1529087644441,
+    "relativePath": "Cenas\\Creditos.fire"
+  },
+  "611b4cf6-5018-48c7-937f-5cc4693d0850": {
+    "asset": 1529087654570,
+    "meta": 1529087654586,
+    "relativePath": "Cenas\\Fase01.fire"
+  },
   "a294a79b-79ae-447a-8f54-39fbae46885e": {
-    "asset": 1529085162579,
-    "meta": 1529085206158,
+    "asset": 1529087692539,
+    "meta": 1529087698621,
     "relativePath": "Scripts\\CenaInicial\\SelecionaOpcao.js"
   }
 }
